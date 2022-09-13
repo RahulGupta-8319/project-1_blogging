@@ -15,6 +15,8 @@ const createAuthor = async function (req, res) {
 
         //-------------------------------Name validation-------------------------------------//
 
+    
+
         const validName = function (value)  {
             return (/^(?![\. ])[a-zA-Z\. ]+(?<! )$/.test(value))
         }
